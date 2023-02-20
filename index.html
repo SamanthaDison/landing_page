@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!-- NOTE use this for showing off the outlines of our divs -->
+<style>
+    div {
+        outline: 2px dashed blue;
+    }
+
+    div>div {
+        outline: 2px dashed red;
+        margin: 5px;
+    }
+</style>
+
+
+<body>
+
+    <header style="background-color: pink;">
+        <b>Landing Page</b>
+    </header>
+
+    <main>
+        <!-- SECTION img -->
+        <div>
+            <p>img will go here</p>
+        </div>
+
+        <div>
+            <div>
+                <p>likes inside here</p>
+            </div>
+            <div>
+                <p>dislikes inside here</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>this is my footer</p>
+    </footer>
+
+</body>
+
+</html>
