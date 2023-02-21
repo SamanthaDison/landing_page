@@ -13,6 +13,7 @@
 <style>
     div {
         outline: 2px dashed blue;
+        min-height: 30vh;
     }
 
     div>div {
@@ -30,17 +31,29 @@
 
     <main>
         <!-- SECTION img -->
-        <div>
-            <p>img will go here</p>
+        <div class="img-section">
+            <h1>Samantha "Sammy Goose" Dison</h1>
+            <img src="https://codeworks.blob.core.windows.net/media/samnicdis__QGdtYWlsLmNvbQ==/profile-picture.jpeg?v=12209"
+                alt="wild doggie">
+            <!-- <p>img will go here</p> -->
         </div>
 
-        <div>
+        <!-- NOTE pay attention to parent elements here -->
+        <div class="d-flex">
             <div>
-                <p>likes inside here</p>
+                <h2>Likes</h2>
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                </ul>
             </div>
             <div>
                 <p>dislikes inside here</p>
             </div>
+        </div>
+
+        <div>
+            <p>beans here</p>
         </div>
 
     </main>
